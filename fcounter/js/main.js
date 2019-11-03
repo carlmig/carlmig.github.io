@@ -26,5 +26,7 @@ function checkBadges(){
         var badge = document.getElementById(badgeName);
         badge.classList.remove("invisible");
         badge.classList.add('animated', 'zoomInDown');
+        var audio = new Audio('sounds/PowerUp18.mp3');
+        audio.play();
     }
 }
