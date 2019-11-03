@@ -79,10 +79,11 @@ body {
     position: relative;
     text-align: center;
     width: 100%;
+    max-height: 50%;
 }
 
 #action>img {
-    max-width: 600px;
+    width: 50%;
 }
 
 #counter {
@@ -102,10 +103,11 @@ body {
 #badges>div {
     display: inline-block;
     margin: 4px;
+    max-width: 10%;
 }
 
 #badges>div>img {
-    max-width: 200px;
+    width: 100%;
 }
 
 
